@@ -1,5 +1,5 @@
 import 'package:fb_clone_flutter/config/palette.dart';
-import 'package:fb_clone_flutter/screens/home_screen.dart';
+import 'package:fb_clone_flutter/screens/nav_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Palette.scaffold,
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: const NavScreen(),
     );
   }
 }
